@@ -1,4 +1,4 @@
-a=10
-b=10
-c= a+b
-print("Addition",c)
+# Addition of 2 number using python
+def addition(a:int,b:int)->int:
+  return a+b
+print("Addition",addition(5,5))
